@@ -8,7 +8,7 @@ import axios from 'axios';
 
 // Set global base URL for all API requests to the deployed backend.
 // In local development, you can still let Vite proxy it by creating a .env file locally with VITE_API_URL=http://localhost:5000
-axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://backend-office-qv51.vercel.app';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://backend-office.vercel.app';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
