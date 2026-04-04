@@ -11,8 +11,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3 group">
-              <div className="p-2 bg-gradient-to-tr from-primary to-cyan-400 rounded-xl shadow-lg group-hover:shadow-cyan-500/30 transition-all duration-300">
-                <Cpu size={28} className="text-white" />
+              <div className="bg-white flex items-center justify-center h-12 w-12 rounded-xl shadow-lg group-hover:shadow-cyan-500/30 transition-all duration-300 overflow-hidden">
+                <img src="/logo.jpg" alt="Logo" className="h-full w-full object-contain p-1" />
               </div>
               <span className="font-extrabold text-2xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">Padmavati Enterprises</span>
             </Link>
